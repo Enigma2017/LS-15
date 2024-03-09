@@ -1,0 +1,57 @@
+html {
+	font-size: 1px;
+
+	@include tablet {
+		font-size: 0.9px;
+	}
+
+	@include mobile {
+		font-size: 0.8px;
+	}
+}
+
+body {
+	font-size: 16rem;
+	font-family: var(--font-family);
+	background: #020617;
+	color: #fff;
+}
+
+.container {
+	padding: 0 20rem;
+	max-width: 1166rem;
+	margin-inline: auto;
+}
+
+.bg-dark {
+	background: #111827;
+}
+
+
+.title {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 42rem;
+	line-height: 152%;
+	color: #f3f4f6;
+	margin-bottom: 24px;
+
+	span {
+		color: #eab308;
+	}
+}
+
+.desc {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 16rem;
+	line-height: 169%;
+	color: #6b7280;
+	max-width: 461px;
+}
+.text-center {
+	text-align: center;
+}
+.mx-auto {
+	margin-inline: auto;
+}
