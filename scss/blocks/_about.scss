@@ -1,0 +1,56 @@
+.about{
+    padding: 244rem 0 152rem;
+
+    p{
+        padding-bottom: 20px;
+
+        &:nth-last-child(2){
+            margin-bottom: 40px;
+        }
+    }
+
+    &__blocks{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__img img{
+        position: relative;
+        z-index: 2;
+        margin: -150px 0 0 34px
+    }
+
+    .about__img_backdrop{
+        position: absolute;
+        background: url('../../img/dev3.png') no-repeat center;
+        width: calc(100% - 8px);
+        height: calc(100% - 19px);
+        top: -91px;
+        left: -325px;
+    }
+
+    &__text{
+        margin-top: -80px;
+
+        a{
+            padding: 16px 20px;
+            font-family: var(--second-family);
+            font-size: 16rem;
+            font-weight: 400;
+            color: black;
+            background-color: var(--yellow-color);
+            border-radius: 4px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -ms-border-radius: 4px;
+            -o-border-radius: 4px;
+            cursor: pointer;
+    
+            &:hover{
+                background-color: black;
+                color: var(--yellow-color);
+            }
+        }
+    }
+}
+
